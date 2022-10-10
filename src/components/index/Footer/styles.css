@@ -1,0 +1,28 @@
+.circle {
+  margin-left: 10px;
+}
+
+.footer-container {
+  /* background: orange; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.social-media {
+  position: absolute;
+  display: flex;
+  right: 10px;
+}
+.private {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .private {
+    /* padding-left: 250px; */
+  }
+}
