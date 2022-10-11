@@ -1,11 +1,12 @@
 import React from 'react';
 import './styles.css';
+import Language from '../../../languages';
 import {SocialIcon} from 'react-social-icons';
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div className="private">2022 @ Tüm Hakları Saklıdır..</div>
+      <div className="private">{Language.footer.copyright}</div>
       <div className="social-media">
 
         <div className="circle">

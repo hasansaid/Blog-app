@@ -13,18 +13,30 @@ const Header = () => {
         <div className="nav-container">
           <div className="nav-layout">
             <div>
-              <a href="" className="link">Anasayfa</a>
-              <a href="" className="link">Hakkımızda</a>
-              <a href="" className="link">Makaleler</a>
-              <a href="" className="link">Eğitimler</a>
-              <a href="" className="link">Portfolyo</a>
-              <a href="" className="link">İletişim</a>
+              <a href="/" className="link">
+                {Language.navigation.links[0]}
+              </a>
+              <a href="/about" className="link">
+                {Language.navigation.links[1]}
+              </a>
+              <a href="/articles" className="link">
+                {Language.navigation.links[2]}
+              </a>
+              <a href="/courses" className="link">
+                {Language.navigation.links[3]}
+              </a>
+              <a href="/portfolio" className="link">
+                {Language.navigation.links[4]}
+              </a>
+              <a href="/contact" className="link">
+                {Language.navigation.links[5]}
+              </a>
             </div>
             <div>
               <input
                 className="search"
                 type="text"
-                placeholder="Arama yapınız.."
+                placeholder={Language.navigation.search}
               />
             </div>
             <div
@@ -37,10 +49,10 @@ const Header = () => {
                   db.ref ('lang').set ('english');
                 }
 
-                window.url = '/';
+                window.location = '/';
               }}
             >
-              TR
+              {Language.navigation.lang}
             </div>
           </div>
         </div>

@@ -12,7 +12,7 @@ const turkish = {
     lang: 'EN',
   },
   footer: {
-    copyright: '2022 @ Tüm Hakları Saklıdır',
+    copyright: '2022 @ Tüm Hakları Saklıdır..',
   },
 };
 export default turkish;
