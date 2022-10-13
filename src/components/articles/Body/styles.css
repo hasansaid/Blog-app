@@ -1,0 +1,14 @@
+.articles-container {
+  margin: 10px;
+}
+
+.articles-layout {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.articles-icerik {
+  align-items: center;
+  border: 1px solid black;
+  margin: 5px;
+}

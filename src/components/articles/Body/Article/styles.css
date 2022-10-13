@@ -1,0 +1,57 @@
+.one {
+  border: 1px solid black;
+  margin: 2px;
+}
+.two {
+  margin-left: 3px;
+}
+
+.articles-body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: auto;
+  margin: 7px;
+}
+
+.foto {
+  /* border: 1px solid black;
+    border-radius: 50%; */
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+}
+.articles-body img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.aciklama {
+  padding: 3px;
+  flex-grow: 11;
+  border: 1px solid black;
+  margin: 5px;
+}
+.yazar-tarih {
+  border: 1px solid rgb(251, 147, 73);
+  margin: 7px;
+  padding: 3px;
+  width: 70%;
+}
+.articles-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+.etiketler {
+  border: 1px solid rgb(251, 147, 73);
+  justify-content: flex-start;
+  width: 80%;
+  margin: 7px;
+}
+.devam {
+  border: 1px solid black;
+  margin: 3px 7px 7px 7px;
+  padding: 3px;
+  background-color: rgb(251, 147, 73);
+}

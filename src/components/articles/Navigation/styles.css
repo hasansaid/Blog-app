@@ -1,0 +1,12 @@
+.navigation-container {
+  border: 1px solid black;
+  margin-left: 15px;
+  padding: 10px;
+  display: flex;
+  width: 150px;
+}
+
+.navigation-makale {
+  border: 1px solid rgb(211, 151, 53);
+  margin-left: 3px;
+}

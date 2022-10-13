@@ -37,10 +37,19 @@
   margin-right: 50px;
   text-decoration: none;
   color: black;
+  /* background-color: #f44336; */
+  /* color: #fff;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 16px; */
 }
 
 .link:hover {
   background-color: rgb(34, 246, 189);
+  /* border: 1px solid black;
+  box-sizing: border-box;
+  width: 10px;
+  height: 10px; */
   padding: 5px;
   border: 1px solid black;
 }
@@ -72,6 +81,7 @@
 }
 
 .search {
+  background-color: rgb(185, 226, 226);
   width: 200px;
   margin-left: -50px;
 }

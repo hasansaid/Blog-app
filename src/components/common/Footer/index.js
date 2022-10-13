@@ -5,7 +5,11 @@ import {SocialIcon} from 'react-social-icons';
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <>
+    <div className='line'>
+    <hr></hr>
+    </div>
+    <div className="footer-container">    
       <div className="private">{Language.footer.copyright}</div>
       <div className="social-media">
 
@@ -36,6 +40,7 @@ const Footer = () => {
       </div>
 
     </div>
+    </>
   );
 };
 

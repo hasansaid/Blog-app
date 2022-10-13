@@ -1,0 +1,94 @@
+.articles-container {
+  margin: 10px;
+}
+
+.articles-layout {
+  display: flex;
+  justify-content: center;
+}
+
+/* kategori ve içerik boyutları sabitlenmedi*/
+.articles-icerik {
+  align-items: center;
+  border: 1px solid black;
+  margin: 5px;
+}
+.articles-kategori {
+  width: 200px;
+  border: 1px solid black;
+  margin: 5px;
+  height: 300px;
+}
+.kategori-yazı {
+  text-align: end;
+  margin-right: 3px;
+}
+
+.articles-body {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 165px;
+  margin: 7px;
+}
+
+.foto {
+  /* border: 1px solid black;
+  border-radius: 50%; */
+  flex-grow: 1;
+  margin: 5px;
+  text-align: center;
+}
+.articles-body img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.aciklama {
+  padding: 3px;
+  flex-grow: 11;
+  border: 1px solid black;
+  margin: 5px;
+}
+.two {
+  margin-left: 3px;
+}
+hr {
+  /* uzunluk sağdan sola doğru 80% olacak */
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.yazar-tarih {
+  border: 1px solid rgb(251, 147, 73);
+  margin: 7px;
+  padding: 3px;
+  width: 70%;
+}
+
+.articles-footer {
+  display: flex;
+  justify-content: flex-start;
+}
+.etiketler {
+  border: 1px solid rgb(251, 147, 73);
+  justify-content: flex-start;
+  width: 80%;
+  margin: 7px;
+}
+.devam {
+  border: 1px solid black;
+  margin: 3px 7px 7px 7px;
+  padding: 3px;
+  background-color: rgb(251, 147, 73);
+}
+
+.one {
+  border: 1px solid black;
+  margin: 2px;
+}
