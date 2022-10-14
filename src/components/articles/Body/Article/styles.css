@@ -41,7 +41,7 @@
 }
 .articles-footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .etiketler {
   border: 1px solid rgb(251, 147, 73);
@@ -55,3 +55,4 @@
   padding: 3px;
   background-color: rgb(251, 147, 73);
 }
+

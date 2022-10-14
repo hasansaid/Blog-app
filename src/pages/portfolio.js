@@ -1,9 +1,10 @@
 import React from 'react';
+import _Portfolio from '../components/portfolio/index';
 
 const Portfolio = () => {
   return (
     <div>
-      Portfolio
+      <_Portfolio />
     </div>
   );
 };

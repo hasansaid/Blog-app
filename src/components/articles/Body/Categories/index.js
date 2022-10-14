@@ -6,7 +6,7 @@ const Categories = ({setKonu}) => {
     <div>
       <div className="articles-kategori">
         <p className="kategori-yazı">Kategoriler</p>
-        <div><hr /></div>
+        <div className="categori-line"><hr /></div>
 
         <div className="etiketler-container">
           <span

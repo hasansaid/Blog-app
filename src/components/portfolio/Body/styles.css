@@ -1,0 +1,44 @@
+.all-container {
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.neler-yaptık {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.yazi {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.portfolio-body-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-body-container {
+  display: flex;
+  justify-content: center;
+}
+.page-page {
+  margin: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .page-page {
+    width: 500px;
+  }
+
+  .neler-yaptık {
+    font-size: 2em;
+  }
+
+  .yazi {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,109 @@
+.page-container {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 10px;
+
+  min-height: 230px;
+  /* width: 250px; */
+  background: linear-gradient(
+    149deg,
+    rgb(6, 99, 136) 0%,
+    rgb(226, 232, 235) 100%
+  );
+  transition: all 1s ease-in;
+}
+.page-container:hover {
+  background: linear-gradient(
+    149deg,
+    rgb(10, 234, 85) 0%,
+    rgb(226, 232, 235) 100%
+  );
+  transition: all 3s ease-in;
+}
+
+.page-container:hover .sol-sekil {
+  right: 3px;
+  bottom: 5px;
+  left: auto;
+  top: auto;
+  border: 0px;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  transition: all 0.5s ease-in;
+}
+
+.sol-sekil {
+  position: absolute;
+  background-color: transparent;
+  height: 80px;
+  width: 80px;
+  border-left: 5px solid white;
+  border-top: 5px solid white;
+  left: 3px;
+  top: 3px;
+  border-radius: 20% 0 20% 0;
+}
+
+.page-layout {
+  /* sol köşede çizgiler olacak */
+}
+
+.text-yazi {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.baslik {
+  text-align: center;
+}
+.page-line {
+}
+.foto img {
+  width: 160px;
+  height: 120px;
+  border-radius: 20%;
+}
+
+@media only screen and (min-width: 1230px) {
+  .page-container {
+    min-height: 430px;
+    padding: 13px;
+    /* width: 400px; */
+  }
+
+  .sol-sekil {
+    position: absolute;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    left: 3px;
+    top: 3px;
+    border-radius: 20% 0 20% 0;
+    transition: all 0.5s ease-in;
+  }
+
+  .text-yazi {
+    min-height: 80px;
+  }
+  .baslik {
+    font-size: 1.6em;
+  }
+
+  .tanim {
+    font-size: 1.4em;
+  }
+
+  .foto img {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+/* @media only screen and (max-width: 100px) {
+  .foto {
+    width: 160px;
+    height: 120px;
+  }
+} */

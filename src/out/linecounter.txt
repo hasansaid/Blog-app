@@ -1,0 +1,148 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-10-14 00:55:35
+count workspace : c:\Users\Yusuf\Desktop\webSitesi\ilk-react-projesi\src
+total files : 55
+total code lines : 1157
+total comment lines : 36
+total blank lines : 121
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            660|             16|             64|     57|
+   |           .css|            496|             20|             57|     43|
+   |           .svg|              1|              0|              0|  0.086|
+   -------------------------------------------------------------------------
+App.css, code is 33, comment is 0, blank is 5.
+App.js, code is 28, comment is 0, blank is 3.
+App.test.js, code is 7, comment is 0, blank is 1.
+components\about\index.js, code is 0, comment is 0, blank is 0.
+components\about\styles.css, code is 0, comment is 0, blank is 0.
+components\articles\Body\Article\index.js, code is 44, comment is 1, blank is 2.
+components\articles\Body\Article\styles.css, code is 52, comment is 2, blank is 3.
+components\articles\Body\Categories\index.js, code is 39, comment is 0, blank is 3.
+components\articles\Body\Categories\styles.css, code is 20, comment is 0, blank is 2.
+components\articles\Body\index.js, code is 68, comment is 6, blank is 9.
+components\articles\Body\styles.css, code is 12, comment is 0, blank is 2.
+components\articles\index.js, code is 13, comment is 0, blank is 2.
+components\articles\Navigation\index.js, code is 11, comment is 0, blank is 2.
+components\articles\Navigation\styles.css, code is 11, comment is 0, blank is 1.
+components\articles\styles.css, code is 0, comment is 0, blank is 0.
+components\common\Footer\index.js, code is 43, comment is 0, blank is 4.
+components\common\Footer\styles.css, code is 28, comment is 2, blank is 4.
+components\common\Header\index.js, code is 61, comment is 0, blank is 3.
+components\common\Header\styles.css, code is 74, comment is 10, blank is 10.
+components\contact\index.js, code is 0, comment is 0, blank is 0.
+components\contact\styles.css, code is 0, comment is 0, blank is 0.
+components\courses\index.js, code is 5, comment is 0, blank is 2.
+components\courses\styles.css, code is 0, comment is 0, blank is 0.
+components\index\Comments\Comment\index.js, code is 36, comment is 0, blank is 5.
+components\index\Comments\Comment\styles.css, code is 37, comment is 0, blank is 6.
+components\index\Comments\index.js, code is 57, comment is 0, blank is 4.
+components\index\Comments\styles.css, code is 8, comment is 0, blank is 1.
+components\index\Slider\index.js, code is 46, comment is 0, blank is 3.
+components\index\Slider\styles.css, code is 121, comment is 2, blank is 15.
+components\portfolio\index.js, code is 0, comment is 0, blank is 0.
+components\portfolio\styles.css, code is 0, comment is 0, blank is 0.
+components\yedek\index.js, code is 71, comment is 0, blank is 3.
+components\yedek\styles.css, code is 83, comment is 4, blank is 7.
+index.css, code is 17, comment is 0, blank is 1.
+index.js, code is 15, comment is 3, blank is 2.
+languages\english.js, code is 11, comment is 1, blank is 0.
+languages\index.js, code is 20, comment is 0, blank is 3.
+languages\turkish.js, code is 18, comment is 0, blank is 0.
+logo.svg, code is 1, comment is 0, blank is 0.
+pages\about.js, code is 5, comment is 0, blank is 2.
+pages\articles.js, code is 10, comment is 0, blank is 2.
+pages\contact.js, code is 9, comment is 0, blank is 2.
+pages\courses.js, code is 9, comment is 0, blank is 2.
+pages\index.js, code is 12, comment is 1, blank is 2.
+pages\portfolio.js, code is 9, comment is 0, blank is 2.
+reportWebVitals.js, code is 12, comment is 0, blank is 1.
+setupTests.js, code is 1, comment is 4, blank is 0.
+static\images\ali.jpg, it is a binary file.
+static\images\me.jpeg, it is a binary file.
+static\images\me2.jpg, it is a binary file.
+static\images\pic0.jpg, it is a binary file.
+static\images\pic1.jpg, it is a binary file.
+static\images\pic2.jpg, it is a binary file.
+static\images\pic3.jpg, it is a binary file.
+static\images\pic4.png, it is a binary file.
+===============================================================================
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-10-14 00:56:06
+count workspace : c:\Users\Yusuf\Desktop\webSitesi\ilk-react-projesi\src
+total files : 55
+total code lines : 1157
+total comment lines : 36
+total blank lines : 121
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            660|             16|             64|     57|
+   |           .css|            496|             20|             57|     43|
+   |           .svg|              1|              0|              0|  0.086|
+   -------------------------------------------------------------------------
+App.css, code is 33, comment is 0, blank is 5.
+App.js, code is 28, comment is 0, blank is 3.
+App.test.js, code is 7, comment is 0, blank is 1.
+components\about\index.js, code is 0, comment is 0, blank is 0.
+components\about\styles.css, code is 0, comment is 0, blank is 0.
+components\articles\Body\Article\index.js, code is 44, comment is 1, blank is 2.
+components\articles\Body\Article\styles.css, code is 52, comment is 2, blank is 3.
+components\articles\Body\Categories\index.js, code is 39, comment is 0, blank is 3.
+components\articles\Body\Categories\styles.css, code is 20, comment is 0, blank is 2.
+components\articles\Body\index.js, code is 68, comment is 6, blank is 9.
+components\articles\Body\styles.css, code is 12, comment is 0, blank is 2.
+components\articles\index.js, code is 13, comment is 0, blank is 2.
+components\articles\Navigation\index.js, code is 11, comment is 0, blank is 2.
+components\articles\Navigation\styles.css, code is 11, comment is 0, blank is 1.
+components\articles\styles.css, code is 0, comment is 0, blank is 0.
+components\common\Footer\index.js, code is 43, comment is 0, blank is 4.
+components\common\Footer\styles.css, code is 28, comment is 2, blank is 4.
+components\common\Header\index.js, code is 61, comment is 0, blank is 3.
+components\common\Header\styles.css, code is 74, comment is 10, blank is 10.
+components\contact\index.js, code is 0, comment is 0, blank is 0.
+components\contact\styles.css, code is 0, comment is 0, blank is 0.
+components\courses\index.js, code is 5, comment is 0, blank is 2.
+components\courses\styles.css, code is 0, comment is 0, blank is 0.
+components\index\Comments\Comment\index.js, code is 36, comment is 0, blank is 5.
+components\index\Comments\Comment\styles.css, code is 37, comment is 0, blank is 6.
+components\index\Comments\index.js, code is 57, comment is 0, blank is 4.
+components\index\Comments\styles.css, code is 8, comment is 0, blank is 1.
+components\index\Slider\index.js, code is 46, comment is 0, blank is 3.
+components\index\Slider\styles.css, code is 121, comment is 2, blank is 15.
+components\portfolio\index.js, code is 0, comment is 0, blank is 0.
+components\portfolio\styles.css, code is 0, comment is 0, blank is 0.
+components\yedek\index.js, code is 71, comment is 0, blank is 3.
+components\yedek\styles.css, code is 83, comment is 4, blank is 7.
+index.css, code is 17, comment is 0, blank is 1.
+index.js, code is 15, comment is 3, blank is 2.
+languages\english.js, code is 11, comment is 1, blank is 0.
+languages\index.js, code is 20, comment is 0, blank is 3.
+languages\turkish.js, code is 18, comment is 0, blank is 0.
+logo.svg, code is 1, comment is 0, blank is 0.
+pages\about.js, code is 5, comment is 0, blank is 2.
+pages\articles.js, code is 10, comment is 0, blank is 2.
+pages\contact.js, code is 9, comment is 0, blank is 2.
+pages\courses.js, code is 9, comment is 0, blank is 2.
+pages\index.js, code is 12, comment is 1, blank is 2.
+pages\portfolio.js, code is 9, comment is 0, blank is 2.
+reportWebVitals.js, code is 12, comment is 0, blank is 1.
+setupTests.js, code is 1, comment is 4, blank is 0.
+static\images\ali.jpg, it is a binary file.
+static\images\me.jpeg, it is a binary file.
+static\images\me2.jpg, it is a binary file.
+static\images\pic0.jpg, it is a binary file.
+static\images\pic1.jpg, it is a binary file.
+static\images\pic2.jpg, it is a binary file.
+static\images\pic3.jpg, it is a binary file.
+static\images\pic4.png, it is a binary file.
+===============================================================================

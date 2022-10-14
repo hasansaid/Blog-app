@@ -16,7 +16,7 @@ const Article = ({baslik, foto, aciklama, adSoyad, etiketler}) => {
           </div>
         </div>
         <div className="yazar-tarih">
-          {adSoyad} | Yazım Tarihi (Kaç gün önce olduğu)
+          {adSoyad}
         </div>
         <div className="articles-footer">
           <div className="etiketler">
@@ -36,7 +36,7 @@ const Article = ({baslik, foto, aciklama, adSoyad, etiketler}) => {
               ); // etiketler dizisinin içindeki her bir elemanı ekrana yazdırmak için
             })}
           </div>
-          <div className="devam">- DEVAMI- </div>
+          <div className="devam">Devamı..</div>
         </div>
       </div>
     </div>
