@@ -1,0 +1,68 @@
+.iletisim-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rebeccapurple; */
+  align-items: center;
+}
+
+.iletisim-form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 500px;
+}
+.adsoyad {
+  display: flex;
+  flex-direction: column;
+}
+
+.adsoyad input {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.e-posta {
+  display: flex;
+  flex-direction: column;
+}
+.e-posta input {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.mesaj {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 500px;
+}
+
+.mesaj textarea {
+  margin-top: 10px;
+}
+
+.gonder {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.gonder button {
+  width: 500px;
+  height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .iletisim-form {
+    width: 400px;
+  }
+  .mesaj {
+    width: 400px;
+  }
+  .gonder button {
+    width: 400px;
+  }
+}

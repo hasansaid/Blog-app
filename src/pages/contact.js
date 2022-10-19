@@ -1,9 +1,10 @@
 import React from 'react';
+import CContact from '../components/contact';
 
 const Contact = () => {
   return (
     <div>
-      Contact
+      <CContact />
     </div>
   );
 };

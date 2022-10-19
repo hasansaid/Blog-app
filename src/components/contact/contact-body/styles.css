@@ -1,0 +1,58 @@
+.contact-b-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-i-container {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.contact-i-container:hover {
+  color: rgb(47, 61, 193);
+}
+
+.aa {
+  /* clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%); */
+  margin: 50px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease;
+}
+
+.aa:hover {
+  border-bottom: 1px solid rgb(47, 61, 193);
+}
+.aa img {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 1100px) {
+  .aa {
+    /* clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%); */
+    margin: 30px;
+  }
+  .aa img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contact-b-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aa {
+    /* clip-path: polygon(0 50%, 50% 0, 100% 50%, 50% 100%); */
+    margin: 30px;
+  }
+  .aa img {
+    width: 150px;
+    height: 150px;
+  }
+}

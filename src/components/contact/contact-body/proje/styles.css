@@ -1,0 +1,39 @@
+.proje-container {
+  margin-left: 30px;
+}
+
+.proje-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kisisel-bilgiler {
+}
+
+.kisisel {
+  margin: 10px;
+}
+.kisisel input {
+}
+
+.firma-bilgileri {
+}
+.firma {
+  margin: 10px;
+}
+.proje-bilgiler {
+}
+.proje {
+  margin: 10px;
+}
+.proje-span {
+  display: inline-block;
+  width: 190px;
+}
+
+.proje-gonder {
+  margin-top: 15px;
+  width: 340px;
+  height: 50px;
+}

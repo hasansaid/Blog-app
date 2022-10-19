@@ -1,6 +1,8 @@
 .comment-container {
   width: 100%;
-  border: 1px solid black;
+  /* border: 4px solid rgba(255, 255, 255, 0.707); */
+  background-color: rgba(255, 255, 255, 0.707);
+  border-radius: 10px;
   padding: 10px;
   margin: 10px;
 }
@@ -8,7 +10,7 @@
 }
 
 .comment-header {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .comment-header-layout {
@@ -22,15 +24,16 @@
 }
 
 .comment-info {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
   padding: 10px;
 }
 
 .comment-body {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   margin-top: 10px;
   padding: 5px;
+  padding-bottom: 15px;
 }
 
 .comment-footer {

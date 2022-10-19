@@ -1,12 +1,16 @@
-.navigation-container-p {
-  border: 1px solid black;
-  margin-left: 15px;
+.navigation-container-portfolio {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 10px;
+  margin-left: 30px;
   padding: 10px;
   display: flex;
-  width: 150px;
+  width: fit-content;
 }
 
-.navigation-portfolyo {
-  border: 1px solid rgb(211, 151, 53);
+.navigation-portfolio {
+  /* border: 1px solid rgb(211, 151, 53); */
+  color: rgb(244, 36, 21);
+  font-weight: bold;
   margin-left: 3px;
 }

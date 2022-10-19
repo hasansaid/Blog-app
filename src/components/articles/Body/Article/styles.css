@@ -1,6 +1,7 @@
 .one {
   border: 1px solid black;
-  margin: 2px;
+  /* margin: 3px; */
+  margin-bottom: 30px;
 }
 .two {
   margin-left: 3px;
@@ -55,4 +56,3 @@
   padding: 3px;
   background-color: rgb(251, 147, 73);
 }
-

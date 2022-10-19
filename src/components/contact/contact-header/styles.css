@@ -1,0 +1,85 @@
+.contact-header-container {
+  /* border: 1px solid black; */
+  margin: 20px 80px 20px 80px;
+}
+
+.contact-header-layout {
+}
+
+.contact-header-ride {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-ride {
+  padding: 15px;
+}
+
+.ride-image {
+  /* border: 1px solid black; */
+
+  margin: 20px;
+  padding: 10px;
+}
+
+.ride-image img {
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+  .ride-image img {
+    width: 560px;
+    height: 330px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ride-image img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ride-image img {
+    width: 370px;
+    height: 200px;
+  }
+
+  .contact-header-ride {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    margin: 20px;
+  }
+}
+.contact-line {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.card-a {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+}

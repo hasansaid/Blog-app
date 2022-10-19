@@ -3,9 +3,9 @@ import './styles.css';
 
 const Portfolio = () => {
   return (
-    <div className="navigation-container-portfolio">
+    <div className="navigation-container-i">
       <div>Anasayfa / </div>
-      <div className="navigation-portfolio"> Portfolyo</div>
+      <div className="navigation-iletisim"> İletişim</div>
     </div>
   );
 };

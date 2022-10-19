@@ -1,13 +1,13 @@
 import React from 'react';
 import './styles.css';
 
-const Navigation = () => {
+const Portfolio = () => {
   return (
-    <div className="navigation-container">
+    <div className="navigation-container-makale">
       <div>Anasayfa / </div>
       <div className="navigation-makale"> Makaleler</div>
     </div>
   );
 };
 
-export default Navigation;
+export default Portfolio;

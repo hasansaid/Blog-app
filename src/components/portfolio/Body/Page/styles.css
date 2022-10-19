@@ -16,7 +16,7 @@
 .page-container:hover {
   background: linear-gradient(
     149deg,
-    rgb(10, 234, 85) 0%,
+    rgb(10, 234, 133) 0%,
     rgb(226, 232, 235) 100%
   );
   transition: all 3s ease-in;
