@@ -11,6 +11,9 @@ import {
 import {useDisclosure} from '@mantine/hooks';
 import logo from '../../../static/images/logo4.png';
 import {Rocket} from 'tabler-icons-react';
+import Language from '../../../languages';
+import db from '@yusuf-yeniceri/easy-storage';
+import './styles.css';
 
 const HEADER_HEIGHT = 60;
 
@@ -145,6 +148,21 @@ const HeaderResponsive = ({links}) => {
         </div>
         <Group spacing={5} className={classes.links}>
           {items}
+          <div
+            className="language"
+            onClick={() => {
+              let currentLang = db.ref ('lang').get ();
+              if (currentLang == 'english') {
+                db.ref ('lang').set ('turkish');
+              } else if (currentLang == 'turkish') {
+                db.ref ('lang').set ('english');
+              }
+
+              window.location = '/';
+            }}
+          >
+            {Language.navigation.lang}
+          </div>
         </Group>
 
         <Burger
