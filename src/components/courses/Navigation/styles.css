@@ -1,0 +1,16 @@
+.navigation-container-courses {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 10px;
+  margin-left: 30px;
+  padding: 10px;
+  display: flex;
+  width: fit-content;
+}
+
+.navigation-courses {
+  /* border: 1px solid rgb(211, 151, 53); */
+  color: rgb(244, 36, 21);
+  font-weight: bold;
+  margin-left: 3px;
+}
