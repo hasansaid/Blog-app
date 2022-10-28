@@ -60,7 +60,7 @@ const Body = () => {
   ];
 
   // state anlık değişen değişken
-  const [sayac, setSayac] = useState (0);
+  // const [sayac, setSayac] = useState (0);
 
   const [konu, setKonu] = useState ('');
 
