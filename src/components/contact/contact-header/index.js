@@ -25,8 +25,8 @@ const CContact_header = () => {
           />
           {' '}
         </div>
-        <div className="card">
-          <div className="card-a">
+        <div className="cardmine">
+          <div className="card-a-a-a">
             <div className="contact-icon">
               <CurrentLocation size={80} strokeWidth={2} color={'black'} />
             </div>
@@ -35,7 +35,7 @@ const CContact_header = () => {
             <hr />
             P.tesi-Cuma günleri arasında 10:00-20:00 arasında açığız.
           </div>
-          <div className="card-a">
+          <div className="card-a-a-a">
             <div className="contact-icon">
               <Mail size={80} strokeWidth={2} color={'black'} />
             </div>
@@ -45,7 +45,7 @@ const CContact_header = () => {
             <hr />
             Gönerdmiş olduğunuz maillere gün içerisinde dönüş yapılacaktır.
           </div>
-          <div className="card-a">
+          <div className="card-a-a-a">
             <div className="contact-icon">
               <PhoneCalling size={80} strokeWidth={2} color={'black'} />
             </div>

@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cardd {
+  width: 30%;
+  margin-left: 90px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container-card {
+  display: grid;
+  grid-template-columns: 60px 60px 60px;
+  grid-gap: 5px 30%;
+}
+
+.image {
+  position: relative;
+  width: 241px;
+}
+
+.images__img {
+  display: block;
+  width: 100px;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  border-style: solid;
+}
+.image__overlay:hover {
+  opacity: 1;
+}
+.image__title {
+  font-size: 2rem;
+  font-weight: bold;
+  border-style: solid;
+  margin: 1%;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  border-style: solid;
+  margin: 1%;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    width: 100%;
+
+    margin-right: 10vh;
+    display: flex;
+  }
+  .image__img {
+    width: 100%;
+    display: flex;
+    margin-right: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardd {
+    width: 100%;
+  }
+  .container-card {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-gap: 5px 30%;
+  }
+  .image {
+    position: relative;
+    width: 100%;
+  }
+  .images__img {
+    display: block;
+    width: 50%;
+  }
+  .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 2px;
+
+    width: 95%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-style: solid;
+  }
+  .image__title {
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-style: solid;
+    margin: 1%;
+  }
+  .image__description {
+    font-size: 0.55em;
+    margin-top: 0.25em;
+    border-style: solid;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .image {
+    width: 100%;
+    display: flex;
+    margin-right: 10vh;
+  }
+  .image__img {
+    width: 90%;
+    display: grid;
+    grid-gap: 18px;
+
+    margin-right: 100%;
+  }
+  .cardd {
+    width: 100%;
+  }
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0px 10px;
+    width: 90%;
+  }
+  .image {
+    position: relative;
+    width: 100%;
+  }
+  .images__img {
+    display: block;
+    width: 50%;
+  }
+  .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 2px;
+
+    width: 95%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-style: solid;
+  }
+  .image__title {
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-style: solid;
+    margin: 1%;
+  }
+  .image__description {
+    font-size: 0.55em;
+    margin-top: 0.25em;
+    border-style: solid;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .image {
+    width: 100%;
+    display: flex;
+    margin-right: 10vh;
+  }
+  .image__img {
+    width: 90%;
+    display: flex;
+    margin-right: 100%;
+  }
+  .cardd {
+    width: 100%;
+  }
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:0vh 1vh;
+    width: 80%;
+    margin-right:100%;
+  }
+  .image {
+    position: relative;
+    width: 100%;
+  }
+  .images__img {
+    display: block;
+    width: 50%;
+  }
+  .image__overlay {
+    position: absolute;
+    top: 0;
+    left: 2px;
+
+    width: 89%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-style: solid;
+  }
+  .image__title {
+    font-size: 0.5rem;
+    font-weight: bold;
+    border-style: solid;
+    margin: 1%;
+  }
+  .image__description {
+    font-size: 0.55em;
+    margin-top: 0.25em;
+    border-style: solid;
+    margin: 1%;
+  }
+}

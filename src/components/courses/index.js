@@ -1,15 +1,18 @@
-import React from 'react';
-import './styles.css';
-import Navigation_courses from './Navigation';
-import Coursesheader from './CoursesHeader';
-import Coursesbody from './CoursesBody';
-
+import React from "react";
+import "./styles.css";
+import Navbar from "./Navbar/Navbar";
+import Navigation from "./Navigation/index";
+import Category from "../courses/Category/Category"
+import Article from "../courses/Article/Article";
 const index = () => {
   return (
     <div>
-      <Navigation_courses />
-      <Coursesheader />
-      <Coursesbody />
+      <Navigation />
+      <Navbar />
+     
+      <Category />
+      <Article/>
+     
     </div>
   );
 };

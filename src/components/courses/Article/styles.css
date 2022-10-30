@@ -1,0 +1,139 @@
+.articles-container-a {
+  margin: 40px;
+}
+
+.articles-layout-a {
+  display: flex;
+  justify-content: center;
+}
+
+/* kategori ve içerik boyutları sabitlenmedi*/
+.articles-icerik-a {
+  align-items: center;
+  border: 1px solid black;
+  margin: 5px;
+  background: #ccccff;
+  background-size: 400%;
+}
+.text-a {
+  margin: 2%;
+}
+.articles-kategori-a {
+  width: 200px;
+  border: 1px solid black;
+  margin: 5px;
+  height: 300px;
+}
+.kategori-yazı-a {
+  text-align: end;
+  margin-right: 3px;
+}
+
+.articles-body-a {
+  display: flex;
+  justify-content: center;
+
+  height: 179px;
+  margin: 7px;
+}
+
+.foto-a {
+  /* border: 1px solid black;
+  border-radius: 50%; */
+  width: 10px;
+}
+.fot-a {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.articles-body-a img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.aciklama-a {
+  padding: 3px;
+  flex-grow: 11;
+
+  margin: 10px;
+}
+.two-a {
+  margin-left: 3px;
+}
+hr {
+  /* uzunluk sağdan sola doğru 80% olacak */
+  width: 100%;
+  display: block;
+  height: 1px;
+  border: 0;
+
+  margin: 1em 0;
+  padding: 0;
+}
+
+.yazar-tarih-a {
+  margin: 9px;
+  padding: 3px;
+  width: 70%;
+  color: rgb(204, 55, 5);
+}
+
+.articles-footer-a {
+  display: flex;
+  justify-content: flex-start;
+}
+.etiketler-a {
+  justify-content: flex-start;
+  width: 80%;
+  margin: 1px 10px 10px 10px;
+  color: rgb(204, 55, 5);
+}
+.devam-a {
+  margin: 3px 7px 7px 7px;
+  padding: 3px;
+  color: rgb(204, 55, 5);
+  border: solid 2px rgb(204, 55, 5);
+}
+
+.one-a {
+  border: 1px solid rgb(79, 5, 5);
+  margin: 2px;
+}
+@media screen and (max-width: 1200px) {
+  .text-a {
+    font-size: 12px;
+  }
+
+  .yazar-tarih-a {
+    font-size: 12px;
+  }
+  .two-a {
+    font-size: 12px;
+  }
+  .etiketler-a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .text-a {
+    font-size: 8px;
+  }
+  .yazar-tarih-a {
+    font-size: 6px;
+  }
+  .two-a {
+    font-size: 9px;
+  }
+
+  .etiketler-a {
+    font-size: 9px;
+  }
+  .foto-a {
+    width: 1%;
+  }
+  .devam-a {
+    font-size: 7px;
+  }
+}

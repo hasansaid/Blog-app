@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Secular One", Helvetica, sans-serif;
+}
+.about {
+  border-style: solid;
+  margin: 20px;
+}
+.about-body {
+  border-style: solid;
+  margin: 1%;
+  width: -1000px;
+  height: 300px;
+}
+.about-body .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-text {
+  border-style: solid;
+  margin: 1%;
+}
+
+.about-text .text {
+  text-decoration: none;
+  font-size: 1.3em;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.about-triangle {
+  border-style: solid;
+  margin: 1%;
+  display: flex;
+  padding: 30px 30px 90px 10px;
+}
+.triangle-1 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-2 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-3 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-4 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-5 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-6 .text {
+  margin-top: 15%;
+
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.triangle-1:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+
+.triangle-2:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+.triangle-3:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+.triangle-4:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+.triangle-5:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+.triangle-6:hover {
+  background-color: rgb(104, 146, 155);
+  border-radius: 50%;
+  clip-path: none;
+  transition: all 0.6s ease;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-360deg);
+}
+.triangle-1 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(183, 73, 161);
+  padding: 20px 10px 90px 10px;
+
+  margin-right: 1%;
+  margin-left: 10%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.triangle-1 c {
+  margin-top: 50%;
+  background-color: red;
+}
+.triangle-2 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(121, 73, 183);
+  padding: 20px 10px 90px 10px;
+  margin-right: 1%;
+  margin-left: 2%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.triangle-3 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(73, 93, 183);
+  padding: 20px 10px 90px 10px;
+  margin-right: 1%;
+  margin-left: 2%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.triangle-4 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(183, 73, 102);
+  padding: 20px 10px 90px 10px;
+  margin-right: 1%;
+  margin-left: 2%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.triangle-5 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(73, 183, 110);
+  padding: 20px 10px 90px 10px;
+  margin-right: 1%;
+  margin-left: 2%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.triangle-6 {
+  text-align: center;
+  text-justify: center;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: relative;
+  width: 10%;
+  background-color: rgb(121, 183, 73);
+  padding: 20px 10px 90px 10px;
+  margin-right: 1%;
+  margin-left: 2%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@media screen and (max-width: 1058px) {
+  .about-triangle {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  .triangle-1 {
+    width: 50%;
+  }
+  .triangle-1 .text {
+    margin-top: 90%;
+  }
+  .triangle-2 {
+    width: 50%;
+  }
+  .triangle-2 .text {
+    margin-top: 90%;
+  }
+  .triangle-3 {
+    width: 50%;
+  }
+  .triangle-3 .text {
+    margin-top: 90%;
+  }
+  .triangle-4 {
+    width: 50%;
+  }
+  .triangle-4 .text {
+    margin-top: 90%;
+  }
+  .triangle-5 {
+    width: 50%;
+  }
+  .triangle-5 .text {
+    margin-top: 90%;
+  }
+  .triangle-6 {
+    width: 50%;
+  }
+  .triangle-6 .text {
+    margin-top: 90%;
+  }
+}

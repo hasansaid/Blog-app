@@ -6,6 +6,7 @@
   /* background: orange; */
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 80px;
@@ -18,17 +19,19 @@
   right: 10px;
 }
 .private {
-  display: flex;
   justify-content: center;
-}
-
-@media only screen and (max-width: 800px) {
-  .private {
-    /* padding-left: 250px; */
-  }
 }
 
 .line {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .social-media {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
