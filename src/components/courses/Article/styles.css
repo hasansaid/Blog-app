@@ -62,16 +62,15 @@
 .two-a {
   margin-left: 3px;
 }
-hr {
-  /* uzunluk sağdan sola doğru 80% olacak */
+/* hr {
+  
   width: 100%;
   display: block;
   height: 1px;
   border: 0;
-
   margin: 1em 0;
   padding: 0;
-}
+} */
 
 .yazar-tarih-a {
   margin: 9px;

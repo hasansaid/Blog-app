@@ -63,6 +63,53 @@
     width: 400px;
   }
   .gonder button {
-    width: 400px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  .adsoyad input {
+    width: 180px;
+  }
+  .e-posta input {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .iletisim-form {
+    width: 350px;
+  }
+  .mesaj {
+    width: 350px;
+  }
+  .gonder button {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  .adsoyad input {
+    width: 175px;
+  }
+  .e-posta input {
+    width: 175px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .iletisim-form {
+    width: 300px;
+  }
+  .mesaj {
+    width: 300px;
+  }
+  .gonder button {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+  }
+  .adsoyad input {
+    width: 140px;
+  }
+  .e-posta input {
+    width: 140px;
   }
 }

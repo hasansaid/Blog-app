@@ -71,6 +71,9 @@ const Body = () => {
         setKonu ('props');
       }} */}
       <div className="articles-layout">
+        <div className="articles-kategori-k">
+          <Categories setKonu={setKonu} />
+        </div>
         <div className="articles-icerik">
 
           {makaleler
@@ -90,7 +93,6 @@ const Body = () => {
             })}
 
         </div>
-        <Categories setKonu={setKonu} />
 
         {/* {sayac} */}
       </div>

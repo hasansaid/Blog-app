@@ -4,7 +4,13 @@
   margin: 5px;
   height: 300px;
 }
-
+@media only screen and (max-width: 550px) {
+  .articles-kategori {
+    width: 91%;
+    padding: 10px;
+    height: 50%;
+  }
+}
 .kategori-yazı {
   text-align: end;
   margin-right: 3px;
@@ -19,6 +25,11 @@
   background-color: white;
   padding: 3px;
   margin: 5px;
+}
+
+.etiket:hover {
+  background-color: black;
+  color: white;
 }
 
 .categori-line {

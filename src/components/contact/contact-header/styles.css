@@ -1,6 +1,6 @@
 .contact-header-container {
   /* border: 1px solid black; */
-  margin: 20px 80px 20px 80px;
+  margin: 20px 20px 20px 20px;
 }
 
 .contact-header-layout {
@@ -53,7 +53,7 @@
     align-items: center;
   }
   .card {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     flex-direction: column;
     margin: 20px;
   }
@@ -82,4 +82,19 @@
 .contact-icon {
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 550px) {
+  .cardmine {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-a-a-a {
+    margin: 20px 0 0 0;
+    width: 75%;
+  }
+
+  .ride-image img {
+    width: 300px;
+  }
 }

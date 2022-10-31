@@ -46,3 +46,15 @@
   width: 390px;
   height: 50px;
 }
+@media only screen and (max-width: 550px) {
+  .third-div button {
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .basvuru-layout {
+    display: flex;
+    flex-direction: column;
+  }
+}
