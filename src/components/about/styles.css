@@ -21,6 +21,7 @@
 .about-text {
   border-style: solid;
   margin: 1%;
+  font-size: 60%;
 }
 
 .about-text .text {
@@ -34,39 +35,43 @@
   margin: 1%;
   display: flex;
   padding: 30px 30px 90px 10px;
+  font-size: 60%;
+  justify-content:center;
+  align-items: center;
 }
 .triangle-1 .text {
-  margin-top: 15%;
+ 
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
 }
 .triangle-2 .text {
-  margin-top: 15%;
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
 }
 .triangle-3 .text {
-  margin-top: 15%;
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
 }
 .triangle-4 .text {
-  margin-top: 15%;
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
 }
 .triangle-5 .text {
-  margin-top: 15%;
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
 }
 .triangle-6 .text {
-  margin-top: 15%;
+  margin-top: 55%;
 
   text-decoration: none;
   font-size: 1.3em;
@@ -251,38 +256,53 @@
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
+  .about-text{
+    font-size: 30%;
+  }
   .triangle-1 {
+    margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-1 .text {
     margin-top: 90%;
   }
   .triangle-2 {
+     margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-2 .text {
     margin-top: 90%;
   }
   .triangle-3 {
+    margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-3 .text {
     margin-top: 90%;
   }
   .triangle-4 {
+    margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-4 .text {
     margin-top: 90%;
   }
   .triangle-5 {
+    margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-5 .text {
     margin-top: 90%;
   }
   .triangle-6 {
+    margin-left:30%;
     width: 50%;
+    font-size: 12px;
   }
   .triangle-6 .text {
     margin-top: 90%;

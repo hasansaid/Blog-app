@@ -4,7 +4,7 @@
 }
 .cardd {
   width: 30%;
-  margin-left: 90px;
+  margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -73,6 +73,7 @@
   }
   .cardd {
     width: 100%;
+    
   }
   .container-card {
     display: grid;
@@ -132,6 +133,7 @@
   }
   .cardd {
     width: 100%;
+    
   }
   .container-card {
     display: grid;

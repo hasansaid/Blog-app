@@ -1,144 +1,178 @@
-* {
-  padding: 0;
-  margin: 0;
+*{
+    padding: 0;
+    margin:0;
 }
 
-.card {
-  width: 250px;
-  box-shadow: 0 0 10px #050105d2;
-  border-radius: 5px;
-  padding: 5px;
-
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+.card{ 
+    width:250px;
+    box-shadow: 0 0 10px #050105d2;
+    border-radius:5px;
+    padding:5px;
+    margin:10px;
+ 
+  
+   
 }
 
-.card-header img {
-  width: 100%;
-  background: white;
-  height: 100px;
-  border-radius: 50%;
-  padding: 5px;
-  border: 2px solid #8c0090;
+.card-header img{
+    width:90%;
+    background:white;
+     height:100px;
+    border-radius:50%;
+    padding:5px;
+    border:2px solid #8c0090;
+    margin-left: 2%;
+   
 }
-.cards {
-  display: flex;
-  flex-wrap: wrap;
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:10%;
+    margin-top: 4%;
+    
 }
-.titleProduct {
-  text-align: center;
+.titleProduct{
+    text-align:center;
 }
-.name {
-  text-align: center;
-  color: #8c0090;
+.name{
+    text-align:center;
+    color:#8c0090
 }
-.hour {
-  text-align: center;
+.hour{
+     text-align:center;
 }
-.tongue {
-  text-align: center;
+.tongue{
+    text-align:center;
 }
-.level {
-  text-align: center;
+.level{
+    text-align:center;
 }
-.price {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
+.price{
+    display:flex;
+    justify-content:center;
+    margin:10px 0;
 }
-.btn {
-  position: relative;
-  top: 99%;
-  left: 90%;
-  padding: 10px 8px;
-  margin: 10px 25px 10px 20px;
-  display: flex;
-  width: 15%;
-  border: none;
-  background: #fff;
-  color: #000;
-  text-transform: uppercase;
-  cursor: pointer;
-  background: linear-gradient(90deg, #41c4f4, #f441a5, #ffeb3b, #03a9f4);
-  background-size: 400%;
-  text-align: center;
-  justify-content: center;
+.row-3{
+  margin-top:100%;
 }
-.btn.btn:first-child:before {
-  background-size: 400%;
-  background: linear-gradient(90deg, #fa7199, #f5ce62, #343603, #fa7199);
+.btn{
+ position:relative;
+ display:flex;
+  top:99%;
+ left:100%;
+padding:10px 10px;
+margin-top:40%;
+
+margin-left:10%;
+
+width:100%;
+border:none;
+background:#fff;
+color:#000;
+text-transform: uppercase;
+cursor:pointer;
+    background:linear-gradient(90deg,#41c4f4,#f441a5,#ffeb3b,#03a9f4);
+background-size:400%;
+text-align: center;
+justify-content:center;
+  z-index:1;
+    animation:glow 8s linear infinite;
+
+}
+.btn.btn:first-child:before{
+    background-size:400%;
+ background:linear-gradient(90deg,#fa7199,#f5ce62,#343603,#fa7199);
+
 }
 .btn:first-child:before,
-.btn:last-child:before {
-  content: "";
-  position: absolute;
-  background: inherit;
-  top: -5px;
-  right: -5px;
-  bottom: -5px;
-  left: -5px;
-  border-radius: 50px;
-  filter: blur(20px);
-  opacity: 0;
-  transition: opacitiy 0.5s;
+.btn:last-child:before{
+    content:"";
+    position:absolute;
+    background:inherit;
+    top:-5px;
+    right:-5px;
+    bottom:-5px;
+    left:-5px;
+    border-radius:50px;
+    filter:blur(20px);
+    opacity:0;
+    transition: opacitiy .5s;
+
 }
 .btn:hover:first-child:before,
-.btn:hover:first-child:before {
-  opacity: 1;
-  z-index: -1;
-}
-.btn {
-  z-index: 1;
-  animation: glow 8s linear infinite;
+.btn:hover:first-child:before{
+    opacity:1;
+    z-index:-1;
 }
 
-@keyframes glow {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 400%;
-  }
+
+@keyframes glow{
+    0%{background-position:0%;}
+    100%{background-position:400%}
 }
 
-.container {
+
+
+
+
+
+.container{
+  display:flex;
+
+   
 }
-@media screen and (max-width: 1200px) {
-  .cards {
-    width: 80%;
-  }
-  .card-header {
-  }
-  .titleProduct {
-    font-size: 2%;
-  }
-  .col-courses {
-    margin-right: 300px;
-  }
-  .col {
-    margin-right: 10%;
-    width: 50%;
-  }
-  .col .btn {
-    font-size: 50%;
-  }
+@media screen and (max-width: 1200px) { 
+.cards{
+    width:80%;
+    
 }
-@media screen and (max-width: 800px) {
-  .cards {
-    width: 80%;
-    display: flex;
-  }
-  .card-header {
-  }
-  .titleProduct {
+.card-header{
+    
+}
+.titleProduct{
     font-size: 2%;
-  }
-  .col {
-    margin-right: 10%;
-    width: 50%;
-  }
-  .col .btn {
-    font-size: 50%;
-  }
+}
+.col{
+   
+   
+}
+.col .btn{
+   font-size:50%;
+}
+}
+@media screen and (max-width: 800px) { 
+.cards{
+    width:80%;
+    display:flex;
+}
+.card-header{
+    
+}
+.titleProduct{
+    font-size: 2%;
+}
+.col{
+    margin-right:10% ;
+    width:50%;
+   
+}
+.col .btn{
+   font-size:50%;
+}
+.container{
+  margin-right:20%;
+}
+.cards{
+  margin-right:90%;
+}
+.row-3{
+  margin-right:10%;
+   
+}
+.card-header img{
+    width:90%;
+  
+    
+   
+}
 }

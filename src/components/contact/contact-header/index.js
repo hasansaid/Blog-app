@@ -10,9 +10,13 @@ const CContact_header = () => {
         <div className="contact-header-ride">
           <div className="contact-ride">
             <h2>İletişim Bilgilerimiz</h2>
-            Sayfanın sonundaki proje formu kullanarak proje taleplerinize dair ön bilgilendirme yapabilir, İletişim Formu yoluyla soru ve görüşlerinizi bizlerle paylaşabilir, telefon ve adres bilgilerimizden bizimle iletişe geçebilirsiniz.
             <br />
             Sayfanın sonundaki proje formu kullanarak proje taleplerinize dair ön bilgilendirme yapabilir, İletişim Formu yoluyla soru ve görüşlerinizi bizlerle paylaşabilir, telefon ve adres bilgilerimizden bizimle iletişe geçebilirsiniz.
+            <br />
+            <br />
+            Mesela bir banka hesabımızın olduğunu düşünelim. Bu banka hesabımızdan nakit eksilmesi durumunda, bankalar müşterisini gerek kısa mesaj gerekse e-posta yoluyla haberdar ederler. Eğer bu işlemi yapan kişi bankada hesabı olan kişi değilse, bu durumda hızlı bir şekilde takip işlemi yapılabilir ve hesabı ele geçiren kişi tespit edilebilir.
+            Ayrıca bu iletişim bilgilerimize kendi sorunlarımız dolayısıyla da ihtiyaç duyabiliriz. Örneğin e-posta adresimizin şifresini unuttuğumuz zaman yeni bir şifre almak istersek, şifre almak isteyen kişinin biz olduğumuzu ispat etmemiz gerekir. Bunu da zamanında kayıt olurken girdiğimiz iletişim bilgilerini kullanarak sağlarız.
+            <br />
             <br />
             Sayfanın sonundaki proje formu kullanarak proje taleplerinize dair ön bilgilendirme yapabilir, İletişim Formu yoluyla soru ve görüşlerinizi bizlerle paylaşabilir, telefon ve adres bilgilerimizden bizimle iletişe geçebilirsiniz.
           </div>
