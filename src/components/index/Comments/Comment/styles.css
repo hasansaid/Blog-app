@@ -6,6 +6,13 @@
   padding: 10px;
   margin: 10px;
 }
+
+@media only screen and (max-width: 440px) {
+  .comment-container {
+    width: 80%;
+  }
+}
+
 .comment-layout {
 }
 
@@ -21,6 +28,13 @@
 
 .comment-image img {
   border-radius: 50%;
+}
+@media only screen and (max-width: 440px) {
+  .comment-image img {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+  }
 }
 
 .comment-info {
