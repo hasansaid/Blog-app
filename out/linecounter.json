@@ -1,0 +1,900 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\Yusuf\\Desktop\\webSitesi\\ilk-react-projesi",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-10-31 22:08:11",
+            "filesum": 134,
+            "codesum": 16224,
+            "commentsum": 190,
+            "blanksum": 375,
+            "statistics": {
+                "": {
+                    "code": 20,
+                    "comment": 2,
+                    "blank": 5
+                },
+                ".json": {
+                    "code": 12461,
+                    "comment": 0,
+                    "blank": 3
+                },
+                ".md": {
+                    "code": 21,
+                    "comment": 4,
+                    "blank": 15
+                },
+                ".css": {
+                    "code": 1835,
+                    "comment": 130,
+                    "blank": 165
+                },
+                ".js": {
+                    "code": 1684,
+                    "comment": 28,
+                    "blank": 173
+                },
+                ".html": {
+                    "code": 23,
+                    "comment": 23,
+                    "blank": 3
+                },
+                ".svg": {
+                    "code": 27,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".code-workspace": {
+                    "code": 8,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".jsx": {
+                    "code": 142,
+                    "comment": 2,
+                    "blank": 11
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": ".gitattributes"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 12391,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 1,
+                    "filename": "public\\_redirects"
+                },
+                {
+                    "filename": "public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 23,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "filename": "public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src\\App.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\App.test.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "src\\components\\about\\Card\\index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 228,
+                    "comment": 0,
+                    "filename": "src\\components\\about\\Card\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\components\\about\\index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 275,
+                    "comment": 0,
+                    "filename": "src\\components\\about\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "src\\components\\articles\\Body\\Article\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 57,
+                    "comment": 4,
+                    "filename": "src\\components\\articles\\Body\\Article\\styles.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "src\\components\\articles\\Body\\Categories\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src\\components\\articles\\Body\\Categories\\styles.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 90,
+                    "comment": 7,
+                    "filename": "src\\components\\articles\\Body\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "src\\components\\articles\\Body\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\articles\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\articles\\Navigation\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\components\\articles\\Navigation\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\articles\\styles.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "src\\components\\common\\Footer\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 1,
+                    "filename": "src\\components\\common\\Footer\\styles.css"
+                },
+                {
+                    "blank": 19,
+                    "code": 168,
+                    "comment": 0,
+                    "filename": "src\\components\\common\\Header\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 82,
+                    "filename": "src\\components\\common\\Header\\styles.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "src\\components\\common\\Header\\test.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-body\\basvuru\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-body\\basvuru\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-body\\iletisim\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 106,
+                    "comment": 1,
+                    "filename": "src\\components\\contact\\contact-body\\iletisim\\styles.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 55,
+                    "comment": 2,
+                    "filename": "src\\components\\contact\\contact-body\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-body\\proje\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-body\\proje\\styles.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 49,
+                    "comment": 3,
+                    "filename": "src\\components\\contact\\contact-body\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\contact-header\\index.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 83,
+                    "comment": 3,
+                    "filename": "src\\components\\contact\\contact-header\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\Navigation\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\components\\contact\\Navigation\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\contact\\styles.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Article\\Article.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 115,
+                    "comment": 12,
+                    "filename": "src\\components\\courses\\Article\\styles.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 75,
+                    "comment": 1,
+                    "filename": "src\\components\\courses\\Category\\Categories.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 139,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Category\\Category.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 67,
+                    "comment": 1,
+                    "filename": "src\\components\\courses\\Category\\Category.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Appearance.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Discontinuity.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Level.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Navbar.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Navbar.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\Sortby.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navbar\\ıd.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\Navigation\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\components\\courses\\Navigation\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\courses\\styles.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src\\components\\index\\Comments\\Comment\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 50,
+                    "comment": 2,
+                    "filename": "src\\components\\index\\Comments\\Comment\\styles.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "src\\components\\index\\Comments\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\components\\index\\Comments\\styles.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "src\\components\\index\\Slider\\index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 121,
+                    "comment": 2,
+                    "filename": "src\\components\\index\\Slider\\styles.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 74,
+                    "comment": 9,
+                    "filename": "src\\components\\portfolio\\Body\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src\\components\\portfolio\\Body\\Page\\index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 88,
+                    "comment": 9,
+                    "filename": "src\\components\\portfolio\\Body\\Page\\styles.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 36,
+                    "comment": 1,
+                    "filename": "src\\components\\portfolio\\Body\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\portfolio\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\portfolio\\Navigation\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\components\\portfolio\\Navigation\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\portfolio\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\egitim\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\egitim\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\ekategori\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\ekategori\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesBody\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesHeader\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\CoursesHeader\\styles.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\Navigation\\index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src\\components\\yedek\\courses\\Navigation\\styles.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\courses\\styles.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 71,
+                    "comment": 0,
+                    "filename": "src\\components\\yedek\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 83,
+                    "comment": 4,
+                    "filename": "src\\components\\yedek\\styles.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 3,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src\\languages\\english.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src\\languages\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src\\languages\\turkish.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\logo.svg"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\pages\\about.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\pages\\articles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\pages\\contact.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\pages\\courses.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "src\\pages\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\pages\\portfolio.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\reportWebVitals.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "src\\setupTests.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src\\src.code-workspace"
+                },
+                {
+                    "filename": "src\\static\\images\\ali.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\static\\images\\basvuru.svg"
+                },
+                {
+                    "filename": "src\\static\\images\\e.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\iletisim.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\iletisim2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\static\\images\\iletisim3.svg"
+                },
+                {
+                    "filename": "src\\static\\images\\k.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\kod.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\kod2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\kod3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\logo2(1).png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\logo2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\logo3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\logo4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\m.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\me.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\me2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\pic0.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\pic1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\pic2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\pic3.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\pic4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src\\static\\images\\proje.svg"
+                },
+                {
+                    "filename": "src\\static\\images\\telefon.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\telefon2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\static\\images\\y.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}

@@ -5,7 +5,7 @@
   padding: 10px;
 
   min-height: 230px;
-  /* width: 250px; */
+  /* width: 350px; */
   background: linear-gradient(
     149deg,
     rgb(6, 99, 136) 0%,
@@ -98,6 +98,43 @@
   .foto img {
     width: 350px;
     height: 300px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .page-container {
+    min-height: 200px;
+    padding: 13px;
+    /* width: 400px; */
+  }
+
+  .sol-sekil {
+    position: absolute;
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    left: 5px;
+    top: 5px;
+    border-radius: 17% 0 17% 0;
+    transition: all 0.5s ease-in;
+  }
+
+  .text-yazi {
+    min-height: 80px;
+  }
+  .baslik {
+    font-size: 0.8em;
+  }
+
+  .tanim {
+    font-size: 0.6em;
+    margin-top: 5px;
+  }
+
+  .foto img {
+    width: 170px;
+    height: 125px;
   }
 }
 

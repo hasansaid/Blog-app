@@ -10,41 +10,41 @@ import kod3 from '../../../static/images/kod3.jpg'
 const sayfalar = [
   [
   {
-    baslik:"Başlık",
-    tanim:"Merhabalar bugünki yazılarımızda değişiklik yoktur",
+    baslik:"Kod Dünyası",
+    tanim:"Enteresan olaylar için takipte kalmaya devam edin...",
     foto:kod
   },
   {
-    baslik:"Başlık",
-    tanim:"Bugünki yazılarımızda değişiklik yoktur",
+    baslik:"Tüm Dünya Şokta",
+    tanim:"Uzaydan gelen saldırı şoka soktu tüm dünyayı şoka soktu..",
     foto:kod2
   },{
-    baslik:"Başlık",
-    tanim:"Selamlar bugünki yazılarımızda değişiklik yoktur",
+    baslik:"React ",
+    tanim:"React yazan gençlik işsiz kalmıyor, haydi sizde başlayın.",
     foto:kod3
   },
 ],[{
-    baslik:"Başlık",
+    baslik:"Düzlük",
     tanim:"Gençler bugünki yazılarımızda değişiklik yoktur",
     foto:kod
   },{
-    baslik:"Başlık",
+    baslik:"Devam",
     tanim:"Fark yok bugünki yazılarımızda değişiklik yoktur",
     foto:kod2
   },{
-    baslik:"Başlık",
+    baslik:"Kitaplık",
     tanim:"Hoşgeldiniz bugünki yazılarımızda değişiklik yoktur",
     foto:kod3
   }],[{
-    baslik:"Başlık",
+    baslik:"Haber",
     tanim:"Selamlar bugünki yazılarımızda değişiklik yoktur",
     foto:kod
   },{
-    baslik:"Başlık",
+    baslik:"Fakat",
     tanim:"İlk olarak bugünki yazılarımızda değişiklik yoktur",
     foto:kod2
   },{
-    baslik:"Başlık",
+    baslik:"Acaba",
     tanim:"İlk bugünki yazılarımızda değişiklik yoktur",
     foto:kod3
   }],
