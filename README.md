@@ -2,7 +2,7 @@
 
 Techcareer'in düzenlemiş olduğu fullstack developer bootcamp kapsamında geliştirmiş olduğumuz ilk react projesi.
 
-Anasayfa - Makaleler - Portfolyo - İletişim sayfalarını ben geliştirdim. Component yapısını, state mantığını bu sayfaları yaparken oturttum.
+Anasayfa - Makaleler - Portfolyo - İletişim sayfalarını ve sitenin altyapısını ben geliştirdim. Component yapısını, state mantığını bu sayfaları yaparken oturttum.
 
 Projeye ulaşmak için:
 
